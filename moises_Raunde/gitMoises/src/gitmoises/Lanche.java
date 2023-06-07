@@ -1,0 +1,81 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package gitmoises;
+
+/**
+ *
+ * @author Nhabomba
+ */
+public class Lanche {
+   private float peso;
+    private float preco;
+    private int dataValidade;
+    private String recheio, molho, tipoPao;
+
+    public Lanche(float peso, String recheio, String molho, String tipoPao, float preco) {
+        this.peso = peso;
+        this.preco = preco;
+        this.dataValidade = 7;
+        this.recheio = recheio;
+        this.molho = molho;
+        this.tipoPao = tipoPao;
+    }
+
+    public float getPeso() {
+        return peso;
+    }
+
+    public void setPeso(float peso) {
+        this.peso = peso;
+    }
+
+    public float getPreco() {
+        return preco;
+    }
+
+    public void setPreco(float preco) {
+        this.preco = preco;
+    }
+
+    public int getDataValidade() {
+        return dataValidade;
+    }
+
+    public void setDataValidade(int dataValidade) {
+        this.dataValidade = dataValidade;
+    }
+
+    public String getRecheio() {
+        return recheio;
+    }
+
+    public void setRecheio(String recheio) {
+        this.recheio = recheio;
+    }
+
+    public String getMolho() {
+        return molho;
+    }
+
+    public void setMolho(String molho) {
+        this.molho = molho;
+    }
+
+    public String getTipoPao() {
+        return tipoPao;
+    }
+
+    public void setTipoPao(String tipoPao) {
+        this.tipoPao = tipoPao;
+    }
+
+    @Override
+    public String toString() {
+        return "Lanche{" + "peso=" + peso + ", preco=" + preco + ", dataValidade=" + dataValidade + ", recheio=" + recheio + ", molho=" + molho + ", tipoPao=" + tipoPao + '}';
+    }
+    
+    
+   
+}
